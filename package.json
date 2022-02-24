@@ -1,0 +1,23 @@
+{
+  "name": "book-se",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessVarghese/Book-SE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessVarghese/Book-SE/issues"
+  },
+  "homepage": "https://github.com/JessVarghese/Book-SE#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.15.0",
+    "graphql": "^15.8.0"
+  }
+}
