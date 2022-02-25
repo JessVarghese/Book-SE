@@ -9,7 +9,6 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
-
   },
   "repository": {
     "type": "git",
@@ -26,6 +25,8 @@
     "bcrypt": "^5.0.1",
     "graphql": "^15.8.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.3"
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.3",
+    "react-router-dom": "^6.2.1"
   }
 }
