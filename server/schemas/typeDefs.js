@@ -11,7 +11,7 @@ type Query {
     username: String
     email: String
     bookCount: Int
-    savedBooks: [Book]
+    saveBooks: [Book]
   
   }
 
@@ -33,10 +33,7 @@ type Query {
     title: String
 }
 
-type removeBook {
-    username: String
-    bookId: String
-}
+
 
   type Auth {
     token: ID!
