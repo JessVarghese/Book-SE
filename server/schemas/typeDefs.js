@@ -33,6 +33,11 @@ type Query {
     title: String
 }
 
+type removeBook {
+    username: String
+    bookId: String
+}
+
   type Auth {
     token: ID!
     user: User
@@ -42,7 +47,7 @@ type Query {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
     saveBook(authors: String!, description: String!, title: String!, bookId: String!, image: String!, link: String!): User
-    deleteBook(bookId: Id!): User
+    removeBook(bookId: ID!): User
     
   }
 
